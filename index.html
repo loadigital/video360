@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v5.Player</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="subscribe-box"> 
+  <img src="icon-logo.png" alt="icon-logo.png">
+  <h2>v5.Player</h2>
+  <div class="subscribe">
+    <input type="text" placeholder="Enter Video Link*" autocomplete="on" id="videourl" required="required"/>  
+    <button class="bot-2" onclick="get()"> GET</button>
+  </div>
+</div>
+
+  <div class="container">
+    <div id="codeframe" style="width:70%"></div>
+    <div class="card" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">v5.Player</h4>
+      <p class="card-text">
+        
+<iframe id="stream" width="560" height="315" 
+scrolling="no"
+src="video.mp4" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+          
+      
+      </p>
+    </div>
+    </div>
+    
+  </div>
+
+  <footer>
+    <a  href="#"><p>@2026 Desarrollado por B!LOA</p></a>
+
+  </footer>
+  
+  <script src="script.js"></script>
+
+  
+</body>
+</html>

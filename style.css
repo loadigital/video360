@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Forum");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i|Marcellus|Nanum+Myeongjo:400,700,800|Old+Standard+TT:400,400i,700|Prata|Vidaloka");
+body {
+  background: #F0F0F0;
+  margin: 0;
+  color: rgb(46, 46, 46);
+}
+
+.subscribe-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Gothic A1", serif;
+  padding: 6em 0;
+  text-align: center;
+}
+.subscribe-box h2 {
+  width: 100%;
+  margin: 0 0 0.85em 0;
+  font-weight: 100;
+  font-size: 30px;
+  font-family: "Marcellus", serif;
+}
+.subscribe-box .subscribe {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.subscribe-box .subscribe input {
+  width: 100%;
+  border: 0;
+  border: 1px solid;
+  padding: 1em 0 0.8em;
+  text-align: center;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.5;
+  color: inherit;
+  outline: none;
+  border-radius: 7px;
+}
+
+
+
+textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 180px;
+  max-width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 17px;
+  resize:none;
+
+}
+.subscribe-box .subscribe{
+ justify-content: left;
+}
+.bot-2{
+  width: 50%;background: rgb(126, 229, 247);
+  padding: 7px;
+  border-radius: 3px 3px;
+  font-family: Arial;
+  text-decoration: none;
+  border: none;
+  margin-top: 20px;
+}
+
+[class*="bot-"]:hover {
+  background: #575252;
+  color: rgb(255, 255, 255);
+  transition: all 1s;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.container .card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .card-text, .container .card-title{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+footer{
+  width: 100%;
+ 
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: black;
+  text-align: center;
+  color: white;
+}
