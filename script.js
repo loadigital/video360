@@ -30,7 +30,7 @@ let iframe=()=> {
   
     div.innerHTML =`
     <p>Insertar URL</p>
-    <textarea>http://127.0.0.1:5500/new%20player/video.html?id=${base}</textarea>
+    <textarea>https://loadigital.github.io/video360/video.html?id=${base}</textarea>
 
   
     `
@@ -39,3 +39,4 @@ let iframe=()=> {
   
 
 }
+
