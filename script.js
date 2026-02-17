@@ -23,7 +23,7 @@ let getbase=()=>{
 
 
 let iframe=()=> {
-    s('stream').src='http://127.0.0.1:5500/new%20player/video.html?id='+base;
+    s('stream').src='https://loadigital.github.io/video360/video.html?id='+base;
 
     var op = document.getElementById("codeframe")
     const div=document.createElement("div")
@@ -37,4 +37,5 @@ let iframe=()=> {
     op.appendChild(div)
   
   
+
 }
